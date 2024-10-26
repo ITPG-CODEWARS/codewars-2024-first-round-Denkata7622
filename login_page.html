@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">    
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Train Archive | Login</title>
+</head>
+<body> 
+    </br>
+    <h1 style="user-select: none;">Login</h1>
+
+    <div class="signup-box">
+        <form style="position: relative;">
+            <input type="text" placeholder="Username" style="position: inherit; left: 25px; top: 10px; width: 400px; height: 30px; font-size: 23px; border-radius: 40px; border-style: outset; border-color: rgb(180, 180, 180); border-width: 4px;" required>
+            <input type="password" placeholder="Password" style="position: inherit; left: 25px; top: 25px; width: 380px; height: 26px; font-size: 20px; border-radius: 30px; border-style:outset; border-color: rgb(180, 180, 180); border-width: 4px;" required>
+            <button type="submit" style="position: inherit; left: 30px; top: 230px; width: 140px; height: 50px; font-size: 25px; border-width: 5px;border-color: rgb(255, 71, 71);  border-style: outset;"><a style="position: relative; top: -3px;">Log In</a></button>
+            <input type="checkbox" id="remember_creds" style="position: inherit; left: -125px; top: 20px;">
+            <label for="remember_creds" style="position: inherit; left: -130px; top: 20px; height: 25px; font-size: 20px; user-select: none;">Remember my Credentials.</label>
+            <button style="position: inherit; left: 350px; top: 175px; width: 143px; height: 58px; background-color: rgb(145, 145, 145);  font-size: 22px;  border-width: 5px;border-color: rgb(166, 166, 166);  border-style: outset"><a href="signup_page.html" style="position: relative; top: -1px;">Create an account</a></button>
+            <img style="background-color: rgb(31, 67, 121);position: relative; top: 12px; height: 40px; width: 200px;">
+            <img src="images/facebook-logo.png" style="height: 50px; width: 40px; position: relative; left: 100px; top: -30px;">
+        </form>
+    </div>
+
+    <div class="right-box"></div>
+</body>
+        <img style="background-color: rgb(100, 100, 100); position:fixed; left: 0; top: 0; width: 100%; height: 83px; user-select: none;">
+        <div class="main-div">
+        <header style="background-color: rgb(100, 100, 100); position:fixed; left:0px; top:0px; width:100%; height:80px;">
+            <header style="position: relative">
+                <a href="index.html">
+                </a>
+                <div class="navbar">
+                    <a href="index.html" style="position:absolute ;height: 30px;width: 100px;top: 23px;left: 62px;"><span>Home</span></a>
+                    <a href="news.html"style="position:absolute ;height: 30px;width: 100px;top: 23px;left: 196px;"><span>News</span></a>
+                    <a href="news.html"style="position:absolute ;height: 30px;width: 145px;top: 23px;left: 330px;"><span>About Us</span></a>
+                    <div class="dropdown_projects">
+                        <button class="dropbtn_projects"style="position:absolute ;height: 60px;width: 150px;top: 23px;left: 520px;">
+                            Trains
+                        </button>
+                        <div class="dropdown-content_projects"style="position:absolute; height: 315px; width: 420px;top: 83px;left: 510px;">
+                            <a href="modern_train.html">Modern Train: Shinkansen (Bullet Train)</a>
+                            <a href="steam_locomotive.html">Steam Locomotive: Union Pacific Big Boy</a>
+                            <a href="maglev_train.html" style="height: 60px;">Maglev Train: Shanghai</a>
+                            <a href="luxury_train.html" style="height: 85px;">Luxury Train: Orient Express</a>
+                        </div>
+                    </div>
+                    <div class="dropdown">
+                        <a class="profile_picture" href="profile.html" style="position: absolute; padding: 0px; top: 9px; left: 1840px; height: 60px; width: 60px; ">
+                        <img src="images/EmptyPfp.png" alt="profile" style="height: 60px; width: 60px;">
+                        </a>
+                        <div class="dropdown-content"style="position:absolute;height: 280px;width: 180px;top: 70px;left: 1735px;">
+                            <a href="login_page.html">Login</a>
+                            <a href="settings.html">Settings</a>
+                            <a href="account.html">Account</a>
+                            <a href="languages.html">Language</a>
+                        </div>
+                    </div>
+                    <div class="search_bar">
+                        <input style="position: absolute; left: 1400px; width: 400px; top: 13px;border-radius: 100px;border-width: 3px; border-color: rgb(151, 151, 151);   font-size: 20px;" type="text" id="searchInput" placeholder="Search for products...">
+                        <a href="search.html" class="search_glass" style="border-radius: 14px; padding: 0px; position: absolute; top: 21px; left: 1780px; height: 30px; width: 30px;" onclick="search()">
+                            <img src="images/magnifying-glass.webp" style="height: 30px;width: 30px;" alt="⌕">
+                        </a>
+                    </div>
+                </div>
+            </header>         
+            <script src="script.js"></script>
+        </header>
+        </div>
+
+</html>

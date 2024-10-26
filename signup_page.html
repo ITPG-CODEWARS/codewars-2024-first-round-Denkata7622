@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">    
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Train Archive | Sign Up</title>
+</head>
+<body>
+        <img style="background-color: rgb(100, 100, 100); position:fixed; left: 0; top: 0; width: 100%; height: 83px; user-select: none;">
+        <div class="main-div">
+        <header style="background-color: rgb(100, 100, 100); position:fixed; left:0px; top:0px; width:100%; height:80px;">
+            <header style="position: relative">
+                <a href="index.html">
+                </a>
+                <div class="navbar">
+                    <a href="index.html" style="position:absolute ;height: 30px;width: 100px;top: 23px;left: 62px;"><span>Home</span></a>
+                    <a href="news.html"style="position:absolute ;height: 30px;width: 100px;top: 23px;left: 196px;"><span>News</span></a>
+                    <a href="news.html"style="position:absolute ;height: 30px;width: 145px;top: 23px;left: 330px;"><span>About Us</span></a>
+                    <div class="dropdown_projects">
+                        <button class="dropbtn_projects"style="position:absolute ;height: 60px;width: 150px;top: 23px;left: 520px;">
+                            Trains
+                        </button>
+                        <div class="dropdown-content_projects"style="position:absolute; height: 315px; width: 420px;top: 83px;left: 510px;">
+                            <a href="modern_train.html">Modern Train: Shinkansen (Bullet Train)</a>
+                            <a href="steam_locomotive.html">Steam Locomotive: Union Pacific Big Boy</a>
+                            <a href="maglev_train.html" style="height: 60px;">Maglev Train: Shanghai</a>
+                            <a href="luxury_train.html" style="height: 85px;">Luxury Train: Orient Express</a>
+                        </div>
+                    </div>
+                    <div class="dropdown">
+                        <a class="profile_picture" href="profile.html" style="position: absolute; padding: 0px; top: 9px; left: 1840px; height: 60px; width: 60px; ">
+                        <img src="images/EmptyPfp.png" alt="profile" style="height: 60px; width: 60px;">
+                        </a>
+                        <div class="dropdown-content"style="position:absolute;height: 280px;width: 180px;top: 70px;left: 1735px;">
+                            <a href="login_page.html">Login</a>
+                            <a href="settings.html">Settings</a>
+                            <a href="account.html">Account</a>
+                            <a href="languages.html">Language</a>
+                        </div>
+                    </div>
+                    <div class="search_bar">
+                        <input style="position: absolute; left: 1400px; width: 400px; top: 13px;border-radius: 100px;border-width: 3px; border-color: rgb(151, 151, 151);   font-size: 20px;" type="text" id="searchInput" placeholder="Search for products...">
+                        <a href="search.html" class="search_glass" style="border-radius: 14px; padding: 0px; position: absolute; top: 21px; left: 1780px; height: 30px; width: 30px;" onclick="search()">
+                            <img src="images/magnifying-glass.webp" style="height: 30px;width: 30px;" alt="⌕">
+                        </a>
+                    </div>
+                </div>
+            </header>         
+            <script src="script.js"></script>
+        </header>
+        </div>
+
+    <div class="signup-box">
+        <form>
+            <input type="text" placeholder="Your Name" required class="input-box">
+            <input type="text" placeholder="Username" required class="input-box">
+            <input type="email" placeholder="Your Email ID" required class="input-box">
+            <input type="password" placeholder="Create Password" required class="input-box">
+            <input type="checkbox" id="terms">
+            <label for="terms">I accept the terms & conditions.</label>
+            <br><br>
+            <button type="submit"style="position: fixed;left: 720px;top: 380px;height: 40px;width: 130px;">Sign Up</button>
+            <a href="login_page.html"> <button style="position: fixed;left: 1100px;top: 380px;height: 40px;width: 100px;">Log in</button></a>
+        </form>
+    </div>
+</body>
+</html>
