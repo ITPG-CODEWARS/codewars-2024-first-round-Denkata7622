@@ -180,11 +180,10 @@ color: #ff0000;
 .login_button:hover{
   border-style:inset;
   background-color: #ce0000;
-  border-color: #333;
 }
 
 .login_button:hover a{
-  color: rgb(255, 35, 35);
+  color: rgb(255, 255, 255);
 }
 
 .signup_button{
