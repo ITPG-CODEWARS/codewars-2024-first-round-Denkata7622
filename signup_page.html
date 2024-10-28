@@ -51,18 +51,22 @@
         </header>
         </div>
 
-    <div class="signup-box">
+    <div class="signup-box" style="top: 140px;">
         <form>
             <input type="text" placeholder="Your Name" required class="input-box">
             <input type="text" placeholder="Username" required class="input-box">
             <input type="email" placeholder="Your Email ID" required class="input-box">
             <input type="password" placeholder="Create Password" required class="input-box">
-            <input type="checkbox" id="terms">
-            <label for="terms">I accept the terms & conditions.</label>
+            <div class="check">
+                <input type="checkbox" id="terms">
+                <label for="terms">I accept the terms & conditions.</label>    
+            </div>
             <br><br>
-            <button type="submit"style="position: fixed;left: 720px;top: 380px;height: 40px;width: 130px;">Sign Up</button>
-            <a href="login_page.html"> <button style="position: fixed;left: 1100px;top: 380px;height: 40px;width: 100px;">Log in</button></a>
+            <button class="signup_button" style="scale: 1.4; position: absolute;left: 50px;top: 530px;height: 40px;width: 100px;">Sign Up</button>
         </form>
+    </div>
+    <div class="signup-box" style="height: 0px; visibility: hidden;">
+        <button class="login_button" style="scale: 1.4; position: absolute;left: 700px;top: -60px;height: 40px;width: 100px;visibility: visible;"> <a href="login_page.html"> Log in</a></button>
     </div>
 </body>
 </html>
